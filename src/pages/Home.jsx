@@ -20,9 +20,22 @@ const IMAGES = {
   donor: "https://media.base44.com/images/public/69cfc5bde36fddfa4d6802bb/18fe31258_generated_101e0ec2.png",
 };
 
+const CYPRUS_BG = "https://media.base44.com/images/public/69cfc5bde36fddfa4d6802bb/c96c2f896_generated_image.png";
+
 export default function Home() {
   return (
-    <div className="font-body">
+    <div className="font-body relative">
+      {/* Cyprus island watermark background */}
+      <div
+        className="fixed inset-0 pointer-events-none z-0"
+        style={{
+          backgroundImage: `url(${CYPRUS_BG})`,
+          backgroundRepeat: "no-repeat",
+          backgroundPosition: "center center",
+          backgroundSize: "80%",
+          opacity: 0.06,
+        }}
+      />
       <Navbar />
       <HeroSection heroImage={IMAGES.hero} />
       <AboutSection architectureImage={IMAGES.architecture} />
