@@ -11,13 +11,13 @@ import ContactSection from "../components/landing/ContactSection";
 import Footer from "../components/landing/Footer";
 
 const IMAGES = {
-  hero: "/__generating__/img_9857c34cd6eb.png",
-  altar: "/__generating__/img_0dfc39f88958.png",
-  guest: "/__generating__/img_d363ea36d675.png",
-  hall: "/__generating__/img_7337f7c491ec.png",
-  mission: "/__generating__/img_aec15429dfba.png",
-  architecture: "/__generating__/img_f19d5db0403b.png",
-  donor: "/__generating__/img_8354bf8fd76c.png",
+  hero: "https://media.base44.com/images/public/69cfc5bde36fddfa4d6802bb/5eb3be22f_generated_02106d8a.png",
+  altar: "https://media.base44.com/images/public/69cfc5bde36fddfa4d6802bb/070230808_generated_3d83f4d7.png",
+  guest: "https://media.base44.com/images/public/69cfc5bde36fddfa4d6802bb/787fa8e14_generated_cdeccf3d.png",
+  hall: "https://media.base44.com/images/public/69cfc5bde36fddfa4d6802bb/0397291cd_generated_5f8e8d75.png",
+  mission: "https://media.base44.com/images/public/69cfc5bde36fddfa4d6802bb/504934a1f_generated_5eb3331b.png",
+  architecture: "https://media.base44.com/images/public/69cfc5bde36fddfa4d6802bb/6231826e0_generated_5a5c1a51.png",
+  donor: "https://media.base44.com/images/public/69cfc5bde36fddfa4d6802bb/18fe31258_generated_101e0ec2.png",
 };
 
 export default function Home() {
