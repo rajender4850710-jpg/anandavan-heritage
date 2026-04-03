@@ -37,7 +37,7 @@ export default function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         <button onClick={() => handleClick("#hero")} className="flex items-center gap-3">
-          <span className="text-2xl">🙏</span>
+          <img src="https://media.base44.com/images/public/69cfc5bde36fddfa4d6802bb/5530ea121_WhatsAppImage2026-01-27at133.jpeg" alt="Anandavan Heritage Logo" className="w-10 h-10 object-contain" />
           <span className="font-heading text-xl font-bold text-primary tracking-wide">
             Anandavan Heritage
           </span>
