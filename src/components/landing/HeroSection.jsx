@@ -40,20 +40,22 @@ export default function HeroSection({ heroImage }) {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1.2, duration: 0.8 }}
-          className="mt-12 flex flex-col sm:flex-row gap-4 justify-center"
+          className="mt-12 flex flex-col items-center gap-4 justify-center"
         >
-          <button
-            onClick={() => document.querySelector("#about")?.scrollIntoView({ behavior: "smooth" })}
-            className="px-8 py-4 bg-primary text-primary-foreground font-body font-semibold rounded-lg hover:bg-primary/90 transition-all shadow-lg"
-          >
-            Discover Our Vision
-          </button>
-          <button
-            onClick={() => document.querySelector("#contact")?.scrollIntoView({ behavior: "smooth" })}
-            className="px-8 py-4 border-2 border-white/40 text-white font-body font-semibold rounded-lg hover:bg-white/10 transition-all"
-          >
-            Join the Journey
-          </button>
+          <div className="flex flex-col sm:flex-row gap-4">
+            <button
+              onClick={() => document.querySelector("#about")?.scrollIntoView({ behavior: "smooth" })}
+              className="px-8 py-4 bg-primary text-primary-foreground font-body font-semibold rounded-lg hover:bg-primary/90 transition-all shadow-lg"
+            >
+              Discover Our Vision
+            </button>
+            <button
+              onClick={() => document.querySelector("#contact")?.scrollIntoView({ behavior: "smooth" })}
+              className="px-8 py-4 border-2 border-white/40 text-white font-body font-semibold rounded-lg hover:bg-white/10 transition-all"
+            >
+              Join the Journey
+            </button>
+          </div>
           <a
             href="https://www.paypal.com/donate"
             target="_blank"
