@@ -54,6 +54,14 @@ export default function HeroSection({ heroImage }) {
           >
             Join the Journey
           </button>
+          <a
+            href="https://www.paypal.com/donate"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-8 py-4 bg-amber-400 text-amber-900 font-body font-semibold rounded-lg hover:bg-amber-300 transition-all shadow-lg flex items-center justify-center gap-2"
+          >
+            🙏 Donate Now
+          </a>
         </motion.div>
       </div>
 
