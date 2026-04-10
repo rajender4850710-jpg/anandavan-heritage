@@ -48,7 +48,7 @@ export default function AboutSection({ architectureImage }) {
           >
             <div className="relative">
               <img
-                src={architectureImage}
+                src="https://media.base44.com/images/public/69cfc5bde36fddfa4d6802bb/1bbc44df3_image.png"
                 alt="Temple architecture details"
                 className="rounded-2xl shadow-2xl w-full object-cover aspect-[3/4]"
               />
