@@ -10,7 +10,7 @@ export default function FacilitiesSection({ guestImage, hallImage }) {
       desc: "An area with restrooms where pilgrims and businessmen from India and Europe can stay and immerse themselves in the spiritual atmosphere."
     },
     {
-      image: hallImage,
+      image: "https://media.base44.com/images/public/69cfc5bde36fddfa4d6802bb/f964422f3_image.png",
       title: "Annadan Hall",
       subtitle: "Sacred Refectory",
       desc: "A large refectory (Langar) where blessed food (Prasadam) will be distributed daily. A key point for accumulating positive karma for the sponsors."
