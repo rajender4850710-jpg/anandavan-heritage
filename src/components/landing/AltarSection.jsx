@@ -9,7 +9,7 @@ const DEITIES = [
 { name: "Sri Ganesha", desc: "The remover of obstacles and lord of new beginnings." }];
 
 
-const BG_IMAGE = "https://media.base44.com/images/public/69cfc5bde36fddfa4d6802bb/cb25478c7_generated_image.png";
+const BG_IMAGE = "https://media.base44.com/images/public/69cfc5bde36fddfa4d6802bb/14b1d429d_img2.png";
 
 export default function AltarSection({ altarImage }) {
   return (
