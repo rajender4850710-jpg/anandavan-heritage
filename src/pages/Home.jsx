@@ -12,7 +12,7 @@ import Footer from "../components/landing/Footer";
 
 const IMAGES = {
   hero: "https://media.base44.com/images/public/69cfc5bde36fddfa4d6802bb/5eb3be22f_generated_02106d8a.png",
-  altar: "https://media.base44.com/images/public/69cfc5bde36fddfa4d6802bb/070230808_generated_3d83f4d7.png",
+  altar: "https://media.base44.com/files/public/69cfc5bde36fddfa4d6802bb/9d74b7de3_ANANDAVANHERITAGE.pdf",
   guest: "https://media.base44.com/images/public/69cfc5bde36fddfa4d6802bb/787fa8e14_generated_cdeccf3d.png",
   hall: "https://media.base44.com/images/public/69cfc5bde36fddfa4d6802bb/0397291cd_generated_5f8e8d75.png",
   mission: "https://media.base44.com/images/public/69cfc5bde36fddfa4d6802bb/504934a1f_generated_5eb3331b.png",
