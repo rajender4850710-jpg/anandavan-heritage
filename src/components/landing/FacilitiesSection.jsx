@@ -4,13 +4,13 @@ import { motion } from "framer-motion";
 export default function FacilitiesSection({ guestImage, hallImage }) {
   const facilities = [
   {
-    image: guestImage,
+    image: "https://media.base44.com/images/public/69cfc5bde36fddfa4d6802bb/4d6a528f6_image.png",
     title: "Shanti-Niwas",
     subtitle: "Guest Complex",
     desc: "An area with restrooms where pilgrims and businessmen from India and Europe can stay and immerse themselves in the spiritual atmosphere."
   },
   {
-    image: hallImage,
+    image: "https://media.base44.com/images/public/69cfc5bde36fddfa4d6802bb/f964422f3_image.png",
     title: "Annadan Hall",
     subtitle: "Sacred Refectory",
     desc: "A large refectory (Langar) where blessed food (Prasadam) will be distributed daily. A key point for accumulating positive karma for the sponsors."
@@ -42,7 +42,7 @@ export default function FacilitiesSection({ guestImage, hallImage }) {
             className="group">
             
               <div className="overflow-hidden rounded-2xl mb-6">
-                <img src="https://media.base44.com/images/public/69cfc5bde36fddfa4d6802bb/f964422f3_image.png"
+                <img src={f.image}
 
               alt={f.title} className="w-full aspect-video object-cover group-hover:scale-105 transition-transform duration-700" />
 
