@@ -9,17 +9,10 @@ const DEITIES = [
   { name: "Sri Ganesha", desc: "The remover of obstacles and lord of new beginnings." },
 ];
 
-const BG_IMAGE = "https://media.base44.com/images/public/69cfc5bde36fddfa4d6802bb/cb25478c7_generated_image.png";
-
 export default function AltarSection({ altarImage }) {
   return (
-    <section id="altar" className="py-24 md:py-32 text-primary-foreground relative overflow-hidden">
-      <div className="absolute inset-0">
-        <img src={BG_IMAGE} alt="" className="w-full h-full object-cover" />
-        <div className="absolute inset-0 bg-black/65" />
-      </div>
-
-      <div className="relative z-10 max-w-7xl mx-auto px-6">
+    <section id="altar" className="py-24 md:py-32 bg-foreground text-primary-foreground">
+      <div className="max-w-7xl mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -28,10 +21,23 @@ export default function AltarSection({ altarImage }) {
           className="text-center mb-16"
         >
           <p className="font-body text-sm tracking-[0.3em] uppercase text-amber-300 mb-4">Sarva-Deva</p>
-          <h2 className="font-heading text-4xl md:text-5xl font-bold text-white">The Sacred Altar</h2>
+          <h2 className="font-heading text-4xl md:text-5xl font-bold">The Sacred Altar</h2>
         </motion.div>
 
         <div className="grid lg:grid-cols-2 gap-16 items-center">
+          <motion.div
+            initial={{ opacity: 0, scale: 0.95 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.7 }}
+          >
+            <img
+              src={altarImage}
+              alt="Sacred altar with deities"
+              className="rounded-2xl shadow-2xl w-full object-cover aspect-video"
+            />
+          </motion.div>
+
           <motion.div
             initial={{ opacity: 0, x: 30 }}
             whileInView={{ opacity: 1, x: 0 }}
