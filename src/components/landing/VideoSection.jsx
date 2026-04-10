@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 
 // Replace this with your actual YouTube video ID
-const YOUTUBE_VIDEO_ID = "dQw4w9WgXcQ";
+const YOUTUBE_VIDEO_ID = "uP9nsLtnGUI";
 
 export default function VideoSection() {
   return (
@@ -32,7 +32,7 @@ export default function VideoSection() {
           className="rounded-3xl overflow-hidden shadow-2xl aspect-video"
         >
           <iframe
-            src={`https://www.youtube.com/embed/${YOUTUBE_VIDEO_ID}`}
+            src={`https://www.youtube.com/embed/${YOUTUBE_VIDEO_ID}?autoplay=1&mute=1`}
             title="Anandavan Heritage Temple"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
