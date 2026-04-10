@@ -8,6 +8,7 @@ import MissionSection from "../components/landing/MissionSection";
 import SponsorSection from "../components/landing/SponsorSection";
 import DiasporaSection from "../components/landing/DiasporaSection";
 import ContactSection from "../components/landing/ContactSection";
+import VideoSection from "../components/landing/VideoSection";
 import Footer from "../components/landing/Footer";
 
 const IMAGES = {
@@ -44,6 +45,7 @@ export default function Home() {
       <FacilitiesSection guestImage={IMAGES.guest} hallImage={IMAGES.hall} />
       <MissionSection missionImage={IMAGES.mission} />
       <SponsorSection donorImage={IMAGES.donor} />
+      <VideoSection />
       <DiasporaSection />
       <ContactSection />
       <Footer />
