@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Mail, Phone, MapPin } from "lucide-react";
+import { Mail, MapPin } from "lucide-react";
 
 export default function ContactSection() {
   return (
@@ -41,18 +41,6 @@ export default function ContactSection() {
             </div>
           </a>
 
-          <a
-            href="tel:+35794098166"
-            className="flex items-center gap-3 px-8 py-4 bg-card rounded-2xl shadow-sm hover:shadow-md transition-shadow group"
-          >
-            <div className="p-2 rounded-lg bg-primary/10 group-hover:bg-primary/20 transition-colors">
-              <Phone className="w-5 h-5 text-primary" />
-            </div>
-            <div className="text-left">
-              <p className="font-body text-xs text-muted-foreground">Phone</p>
-              <p className="font-body text-sm font-semibold text-foreground">+357 94098166</p>
-            </div>
-          </a>
         </motion.div>
 
         <motion.div
