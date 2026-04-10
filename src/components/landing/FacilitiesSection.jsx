@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 export default function FacilitiesSection({ guestImage, hallImage }) {
   const facilities = [
     {
-      image: guestImage,
+      image: "https://media.base44.com/images/public/69cfc5bde36fddfa4d6802bb/91060d09b_image.png",
       title: "Shanti-Niwas",
       subtitle: "Guest Complex",
       desc: "An area with restrooms where pilgrims and businessmen from India and Europe can stay and immerse themselves in the spiritual atmosphere."
