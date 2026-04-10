@@ -31,10 +31,10 @@ export default function AltarSection({ altarImage }) {
             viewport={{ once: true }}
             transition={{ duration: 0.7 }}
           >
-            <iframe
+            <img
               src={altarImage}
-              title="Sacred altar with deities"
-              className="rounded-2xl shadow-2xl w-full aspect-video border-0"
+              alt="Sacred altar with deities"
+              className="rounded-2xl shadow-2xl w-full object-cover aspect-video"
             />
           </motion.div>
 
