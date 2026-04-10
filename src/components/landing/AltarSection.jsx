@@ -33,19 +33,6 @@ export default function AltarSection({ altarImage }) {
 
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <motion.div
-            initial={{ opacity: 0, scale: 0.95 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.7 }}
-          >
-            <img
-              src={altarImage}
-              alt="Sacred altar with deities"
-              className="rounded-2xl shadow-2xl w-full object-cover aspect-video"
-            />
-          </motion.div>
-
-          <motion.div
             initial={{ opacity: 0, x: 30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
