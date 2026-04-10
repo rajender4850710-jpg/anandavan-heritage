@@ -38,9 +38,8 @@ export default function AltarSection({ altarImage }) {
             viewport={{ once: true }}
             transition={{ duration: 0.7 }}>
             
-            <img src="https://media.base44.com/images/public/69cfc5bde36fddfa4d6802bb/32c7033f6_img1.png"
-
-            alt="Sacred altar with deities" className="rounded-[32px] shadow-2xl w-full object-cover aspect-video" />
+            <img src="https://media.base44.com/images/public/69cfc5bde36fddfa4d6802bb/186a932a9_img1.png"
+            alt="Sacred altar with deities" className="rounded-[32px] shadow-2xl w-full object-contain" />
 
             
           </motion.div>
