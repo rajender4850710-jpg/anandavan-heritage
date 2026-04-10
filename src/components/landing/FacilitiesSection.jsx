@@ -42,7 +42,7 @@ export default function FacilitiesSection({ guestImage, hallImage }) {
             className="group">
             
               <div className="overflow-hidden rounded-2xl mb-6">
-                <img src="https://media.base44.com/images/public/69cfc5bde36fddfa4d6802bb/91060d09b_image.png"
+                <img src="https://media.base44.com/images/public/69cfc5bde36fddfa4d6802bb/f964422f3_image.png"
 
               alt={f.title} className="w-full aspect-video object-cover group-hover:scale-105 transition-transform duration-700" />
 
